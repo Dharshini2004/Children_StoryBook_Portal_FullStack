@@ -1,0 +1,21 @@
+
+.carousel-slide {
+    display: flex;
+    flex-direction: row; 
+    gap: 10px; 
+    justify-content: space-between; 
+    padding-top: 20px;
+  }
+  
+  .carousel-item-content {
+    flex: 1;
+    max-width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .carousel-item-content img {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: 200px; /* Set a consistent height for all images */
+    object-fit: cover;
+  }
